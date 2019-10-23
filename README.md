@@ -1,4 +1,4 @@
-# Best Practices Collection in pure javascript
+# Javascript Library of useful utilites
 
 # Example
 
