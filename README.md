@@ -1,6 +1,6 @@
 # Javascript Library of useful utilites
 
-# Example
+# Example 1 Performance testing
 
 ```javascript
 
@@ -19,3 +19,10 @@
   perfTest('square', square);
   
 ```
+
+# Example 2 Handling object copy
+var obj = { zero: 0, one: 1 };
+var copiedObj = { ...obj };
+copiedObj.zero = 2;
+console.log(copiedObj.zero); // 2
+console.log(obj.zero); // 0
