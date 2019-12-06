@@ -31,3 +31,5 @@ copiedObj.zero = 2;
 console.log(copiedObj.zero); // 2
 console.log(obj.zero); // 0
 ```
+
+# ... and more examples and best practices inside
