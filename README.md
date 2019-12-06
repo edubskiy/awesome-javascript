@@ -21,8 +21,13 @@
 ```
 
 # Example 2 Handling object copy
+
+```javascript
 var obj = { zero: 0, one: 1 };
 var copiedObj = { ...obj };
+
 copiedObj.zero = 2;
+
 console.log(copiedObj.zero); // 2
 console.log(obj.zero); // 0
+```
