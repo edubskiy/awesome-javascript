@@ -34,5 +34,6 @@ console.log(obj.zero); // 0
 
 # ... and more examples and best practices inside
 
-#3rd party libraries collection:
-Simple Parallax with javascript https://simpleparallax.com/
+# 3rd party libraries collection:
+
+ - Simple Parallax with javascript https://simpleparallax.com/
