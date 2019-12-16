@@ -2,13 +2,13 @@
 
 Recently added css and common utils library:
 
-Sample #1
+Sample #1 Get element style
 ```javascript
 var elem = document.querySelector('#paragraph') // Node element
 Utils.css.getStyle(elem, 'height');
 ```
 
-Sample #2
+Sample #2 Bind with currying
 ```javascript
 var Person = {
       name: 'John'
@@ -20,7 +20,7 @@ var Person = {
  walkingPerson // => 'John walks'
 ```
 
-# Example 1 Performance testing
+Sample #3 Performance test
 
 ```javascript
 
@@ -40,7 +40,7 @@ var Person = {
   
 ```
 
-# Example 2 Handling object copy
+Sample #4 Handling object copy
 
 ```javascript
 var obj = { zero: 0, one: 1 };
