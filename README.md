@@ -3,10 +3,13 @@
 Recently added css and common utils library:
 
 Sample #1
+```javascript
 var elem = document.querySelector('#paragraph') // Node element
 Utils.css.getStyle(elem, 'height');
+```
 
 Sample #2
+```javascript
 var Person = {
       name: 'John'
  };
@@ -15,6 +18,7 @@ var Person = {
  }
  var walkingPerson = Utils.common.bind(walk, Person);
  walkingPerson // => 'John walks'
+```
 
 # Example 1 Performance testing
 
