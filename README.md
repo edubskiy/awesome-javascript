@@ -1,5 +1,21 @@
 # Javascript Library of useful utilites
 
+Recently added css and common utils library:
+
+Sample #1
+var elem = document.querySelector('#paragraph') // Node element
+Utils.css.getStyle(elem, 'height');
+
+Sample #2
+var Person = {
+      name: 'John'
+ };
+ function walk() {
+     console.log(this.name + ' walks');
+ }
+ var walkingPerson = Utils.common.bind(walk, Person);
+ walkingPerson // => 'John walks'
+
 # Example 1 Performance testing
 
 ```javascript
